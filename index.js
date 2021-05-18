@@ -10,10 +10,23 @@ function functionUsingCallback(en,array){
 */
 //functionUsingCallback(mapToNegativize,[1, 2, 3, -9]);
 
-function map(a,f){
- function(a){ return a * (-1) },
- function(a){ return a  },
- function(a){ return a * 2 },
- function(a){ return a * a }
- }
-map([1, 2, 3, -9], function(a){ return a * a });
+
+
+
+function sayHello(name="") {
+  console.log(`Hello${name}`)
+}
+ 
+let sayHola = function(name="") {
+  console.log(`Hola${name}`)
+}
+ 
+functionUsingCallback(sayHello, sayHola, function(name="") {
+  console.log(`Ni Hao${name}`)
+}, " Gary")
+ 
+function functionUsingCallback(en, es, zh, name){
+  en(name)
+  es(name)
+  zh(name)
+}
