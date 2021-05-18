@@ -22,15 +22,15 @@ mapToSquare(array)
 // function sayHello(name="") {
 //   console.log(`Hello${name}`)
 // }
-// 
+//
 // let sayHola = function(name="") {
 //   console.log(`Hola${name}`)
 // }
-// 
+//
 // functionUsingCallback(sayHello, sayHola, function(name="") {
 //   console.log(`Ni Hao${name}`)
 // }, " Gary")
-// 
+//
 // function functionUsingCallback(en, es, zh, name){
 //   en(name)
 //   es(name)
